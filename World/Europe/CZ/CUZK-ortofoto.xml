@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMTS">
+	<name>ČÚZK - Ortofoto</name>
+	<url>http://geoportal.cuzk.cz/WMTS_ORTOFOTO/WMTService.aspx</url>
+	<copyright>© ČÚZK</copyright>
+	<layer>orto</layer>
+	<set axis="xy">etrs89:laea:epsg:3035</set>
+</map>

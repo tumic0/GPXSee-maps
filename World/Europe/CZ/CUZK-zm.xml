@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMTS">
+	<name>ČÚZK - Základní mapy</name>
+	<url>http://geoportal.cuzk.cz/WMTS_ZM/WMTService.aspx</url>
+	<copyright>© ČÚZK</copyright>
+	<layer>zm</layer>
+	<set axis="xy">etrs89:laea:epsg:3035</set>
+</map>
