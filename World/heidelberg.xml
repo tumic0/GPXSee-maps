@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1">
+	<name>GIScience Heidelberg</name>
+	<url>https://korona.geog.uni-heidelberg.de/tiles/roads/x=$x&amp;y=$y&amp;z=$z</url>
+	<copyright>Map data: © OpenStreetMap contributors (ODbL) | Rendering: © GIScience Heidelberg (CC-SA)</copyright>
+</map>
