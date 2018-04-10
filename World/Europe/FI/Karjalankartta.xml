@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+	<name>Karjalankartta</name>
+	<url>http://www.karjalankartat.fi/wms/8b42201cc218b9cd6c6ef9321e1d40f0</url>
+	<copyright>© Maanmittauslaitos</copyright>
+	<layer>karjalankartat:topo20k_group</layer>
+	<crs axis="yx">EPSG:2394</crs>
+</map>
