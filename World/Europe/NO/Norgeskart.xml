@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+	<name>Topografisk Norgeskart</name>
+	<url>http://openwms.statkart.no/skwms1/wms.topo4</url>
+	<copyright>Norwegian Mapping Authority (CC BY 4.0)</copyright>
+	<layer>topo4_WMS</layer>
+	<crs>EPSG:25833</crs>
+</map>
