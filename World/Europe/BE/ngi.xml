@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMTS">
+	<name>NGI</name>
+	<url type="REST">http://www.ngi.be/cartoweb/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Nationaal Geografisch Instituut</copyright>
+	<layer>topo</layer>
+	<set>3812</set>
+</map>
