@@ -4,7 +4,7 @@ Feel free to contribute your local maps.
 
 ## Rules
 1. The map works with the latest released GPXSee version.
-2. The map validates against the latest map xsd schema.
+2. The map validates against the [latest map xsd schema](https://www.gpxsee.org/map/1.1/map.xsd).
 3. Using the map data in GPXSee is not prohibited by the map license.
 
 ## Map templates
