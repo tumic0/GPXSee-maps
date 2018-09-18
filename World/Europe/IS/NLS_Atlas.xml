@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMTS">
+	<name>Iceland Atlas</name>
+	<url>https://gis.lmi.is/mapcache/wmts</url>
+	<copyright>Map data: National Land Survey of Iceland</copyright>
+	<layer>Atlas</layer>
+	<set>EPSG3057_10</set>
+</map>
