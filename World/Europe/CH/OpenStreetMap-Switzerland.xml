@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.1">
+	<name>OSM Switzerland</name>
+	<url>https://tile.osm.ch/switzerland/$z/$x/$y.png</url>
+	<zoom min="6"/>
+	<bounds left="5.8" right="10.6" bottom="45.7" top="47.9"/>
+	<copyright>Map data: © OpenStreetMap contributors (ODbL) | Rendering: © Swiss OpenStreetMap Association, CC BY-SA</copyright>
+</map>
