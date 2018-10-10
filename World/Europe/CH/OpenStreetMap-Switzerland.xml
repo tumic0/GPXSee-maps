@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.1">
+<map xmlns="http://www.gpxsee.org/map/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gpxsee.org/map/1.1 https://www.gpxsee.org/map/1.1/map.xsd">
 	<name>OSM Switzerland</name>
 	<url>https://tile.osm.ch/switzerland/$z/$x/$y.png</url>
 	<zoom min="6"/>
