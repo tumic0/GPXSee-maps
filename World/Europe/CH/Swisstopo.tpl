@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.0" type="WMS">
 	<name>Swisstopo</name>
 	<url>https://wms.swisstopo.admin.ch</url>
 	<copyright>Federal Topographical Office</copyright>

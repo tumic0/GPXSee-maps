@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1">
+<map xmlns="http://www.gpxsee.org/map/1.0">
 	<name>marshruty.ru</name>
 	<url>https://maps.marshruty.ru/ml.ashx?x=$x&amp;y=$y&amp;z=$z&amp;i=1&amp;al=1</url>
 	<copyright>Map data: General Staff of USSR, GOSGISCENTR</copyright>
