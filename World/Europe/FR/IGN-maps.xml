@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMTS">
+	<name>Cartes IGN</name>
+	<url>https://wxs.ign.fr/pratique/geoportail/wmts</url>
+	<copyright>Institut national de l’information géographique et forestière</copyright>
+	<format>image/jpeg</format>
+	<layer>GEOGRAPHICALGRIDSYSTEMS.MAPS</layer>
+	<style>normal</style>
+	<set>PM</set>
+</map>
