@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.2" type="TMS">
 	<name>Topo 500m</name>
-	<url>https://tiles.nakarte.tk/topo500/$z/$x/$y</url>
+	<url>https://tiles.nakarte.me/topo500/$z/$x/$y</url>
 	<copyright>Map data: General Staff of the Armed Forces of the USSR</copyright>
 </map>

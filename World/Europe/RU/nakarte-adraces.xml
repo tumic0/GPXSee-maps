@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.2" type="TMS">
 	<name>Races</name>
-	<url>https://tiles.nakarte.tk/adraces/$z/$x/$y</url>
+	<url>https://tiles.nakarte.me/adraces/$z/$x/$y</url>
 </map>
