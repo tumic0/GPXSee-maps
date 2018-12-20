@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.3" type="TMS">
+	<name>Slazav map</name>
+	<url>https://tiles.nakarte.me/map_podm/$z/$x/$y</url>
+	<zoom min="5" max="14"/>
+	<bounds left="32.00" right="41.00" bottom="54.00" top="58.00"/>
+	<copyright>© Vladislav Zavjalov</copyright>
+</map>
