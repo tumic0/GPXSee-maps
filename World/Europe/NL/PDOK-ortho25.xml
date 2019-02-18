@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.0" type="WMTS">
+	<name>PDOK Ortho25 2017</name>
+	<url>https://geodata.nationaalgeoregister.nl/tiles/service/wmts</url>
+	<copyright>© CC-BY Kadaster</copyright>
+	<format>image/jpeg</format>
+	<layer>2017_ortho25</layer>
+	<style></style>
+	<set>EPSG:28992</set>
+</map>
