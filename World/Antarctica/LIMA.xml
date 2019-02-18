@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.3" type="WMS">
+	<name>Landsat Image Mosaic of Antarctica (LIMA)</name>
+	<url>https://limaims.cr.usgs.gov/arcgis/services/Antarctica/USGS_EROS_Antarctica_Reference/MapServer/WmsServer</url>
+	<copyright>Map data: U.S. Geological Survey (USGS), British Antarctic Survey (BAS), National Aeronautics and Space Administration (NASA)</copyright>
+	<layer>LIMA_Full_1km</layer>
+	<crs>EPSG:3031</crs>
+</map>
