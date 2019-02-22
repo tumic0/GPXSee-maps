@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.3">
+	<name>Alpenkarte.eu</name>
+	<url>https://map.freizeitkarte.net/tiles/$z/$x/$y.png</url>
+	<zoom min="1" max="16"/>
+	<bounds left="-9.5" right="32.4" bottom="36" top="64"/>
+	<copyright>Map tiles © Schneider Geo, Map data © OpenStreetMap contributors</copyright>
+</map>
