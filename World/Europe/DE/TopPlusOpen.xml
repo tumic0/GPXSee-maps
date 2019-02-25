@@ -5,5 +5,5 @@
 	<copyright>© Bundesamt für Kartographie und Geodäsie</copyright>
 	<layer>web</layer>
 	<style>default</style>
-	<set>EU_EPSG_25832_TOPPLUS</set>
+	<set>WEBMERCATOR</set>
 </map>
