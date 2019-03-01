@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.0" type="WMTS">
+	<name>GUGIK Ortofotomapa</name>
+	<url>http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/ORTO</url>
+	<copyright>© Główny Urząd Geodezji i Kartografii</copyright>
+	<format>image/jpeg</format>
+	<layer>ORTOFOTOMAPA</layer>
+	<set>EPSG:2180</set>
+</map>
