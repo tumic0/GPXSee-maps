@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.2">
+<map xmlns="http://www.gpxsee.org/map/1.3">
 	<name>TWTOPO-rudy</name>
 	<url>http://rudy.tile.basecamp.tw/$z/$x/$y.png</url>
 	<zoom min="6" max="19"/>
