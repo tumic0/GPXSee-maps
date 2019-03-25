@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.3">
+	<name>Turistautak</name>
+	<url>https://map.turistautak.hu/tiles/turistautak/$z/$x/$y.png</url>
+	<bounds top="48.6" bottom="45.7" left="16.1" right="22.9"/>
+	<copyright>© turistautak.hu</copyright>
+</map>
