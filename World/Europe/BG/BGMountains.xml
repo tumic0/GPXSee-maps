@@ -3,5 +3,5 @@
 	<name>BGMountains</name>
 	<url>https://bgmtile.kade.si/$z/$x/$y.png</url>
 	<bounds top="44.5" bottom="40.5" left="20.5" right="29"/>
-	<copyright>CART Lab, BGM team, Tiles � CC BY-SA 4.0</copyright>
+	<copyright>CART Lab, BGM team, Tiles © CC BY-SA 4.0</copyright>
 </map>
