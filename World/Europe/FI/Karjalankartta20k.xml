@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.3" type="WMS">
-	<name>Karjalankartta (Maps of Karelia)</name>
-	<url>http://www.karjalankartat.fi/wms/8b42201cc218b9cd6c6ef9321e1d40f0</url>
+	<name>Karjalankartta (Maps of Karelia) 1:20 000</name>
+	<url>https://mapservices.navici.com/karjalankartat/wms?apikey=4NIgWBON5qRTx8ePtDbQNR0YojJkhlFB</url>
 	<copyright>Map data: National Land Survey of Finland</copyright>
-	<layer>karjalankartat:topo20k_group</layer>
+	<layer>topo20k_group</layer>
 	<crs>EPSG:2394</crs>
 </map>
