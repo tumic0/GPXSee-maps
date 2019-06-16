@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.3" type="WMS">
+	<name>Slovenia - DTK50</name>
+	<url>http://prostor4.gov.si/ows2-m-pub/wms</url>
+	<copyright>MOP - Geodetska uprava Republike Slovenije</copyright>
+	<layer>SI.GURS.DK:DTK50</layer>
+	<crs>EPSG:3794</crs>
+</map>
