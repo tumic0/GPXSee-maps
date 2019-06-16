@@ -3,6 +3,6 @@
 	<name>Slovenia - DTK50</name>
 	<url>http://prostor4.gov.si/ows2-m-pub/wms</url>
 	<copyright>MOP - Geodetska uprava Republike Slovenije</copyright>
-	<layer>SI.GURS.DK:DTK50</layer>
+	<layer>raster_gurs_pub:SI.GURS.RASTRI.DTK50</layer>
 	<crs>EPSG:3794</crs>
 </map>
