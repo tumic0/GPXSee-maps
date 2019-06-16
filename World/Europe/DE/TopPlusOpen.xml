@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.3" type="WMTS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>TopPlusOpen</name>
 	<url type="REST">http://sgx.geodatenzentrum.de/wmts_topplus_open/1.0.0/WMTSCapabilities.xml</url>
 	<copyright>© Bundesamt für Kartographie und Geodäsie</copyright>

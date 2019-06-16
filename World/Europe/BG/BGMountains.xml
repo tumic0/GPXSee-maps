@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.3">
+<map xmlns="http://www.gpxsee.org/map/1.4">
 	<name>BGMountains</name>
 	<url>https://bgmtile.kade.si/$z/$x/$y.png</url>
 	<bounds top="44.5" bottom="40.5" left="20.5" right="29"/>

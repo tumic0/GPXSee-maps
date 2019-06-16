@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.3" type="WMTS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>Svalbard Topography</name>
 	<url>https://geodata.npolar.no/arcgis/rest/services/Basisdata/NP_Basiskart_Svalbard_WMTS_25833/MapServer/WMTS</url>
 	<copyright>© Norwegian Polar Institute, CC BY 4.0</copyright>

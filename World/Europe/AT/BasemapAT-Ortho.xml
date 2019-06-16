@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.3" type="WMTS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>Basemap AT Orthofoto</name>
 	<url type="REST">https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</url>
 	<copyright>© CC-BY 3.0 AT basemap.at</copyright>
