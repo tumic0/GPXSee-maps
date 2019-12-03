@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>mapy.cz tourist</name>
+	<url>https://mapserver.mapy.cz/turist-m/$z-$x-$y</url>
+	<copyright>Map data: © OpenStreetMap contributors (ODbL) | Rendering: © Seznam.cz, a.s.</copyright>
+</map>
