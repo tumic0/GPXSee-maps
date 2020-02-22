@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>Iceland Landscape</name>
-	<url>https://gis.lmi.is/mapcache/wmts</url>
+	<url>https://gis.lmi.is/geoserver/gwc/service/wmts</url>
 	<copyright>Map data: National Land Survey of Iceland</copyright>
 	<layer>LMI_Landslag</layer>
-	<set>EPSG3057</set>
+	<set>EPSG:3057</set>
 </map>
