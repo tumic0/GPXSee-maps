@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Open Street Map - Black and White</name>
+	<url>https://tiles.wmflabs.org/bw-mapnik/$z/$x/$y.png</url>
+	<zoom max="18"/>
+	<copyright>Map data: OpenStreetMap contributors (ODbL) | Rendering: Wikimedia</copyright>
+</map>
