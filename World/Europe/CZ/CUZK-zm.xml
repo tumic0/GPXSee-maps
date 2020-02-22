@@ -4,5 +4,5 @@
 	<url>http://geoportal.cuzk.cz/WMTS_ZM/WMTService.aspx</url>
 	<copyright>© ČÚZK</copyright>
 	<layer>zm</layer>
-	<set axis="xy">etrs89:laea:epsg:3035</set>
+	<set>jtsk:epsg:5514</set>
 </map>
