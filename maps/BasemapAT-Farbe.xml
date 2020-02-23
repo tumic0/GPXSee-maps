@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Basemap AT Farbe</name>
+	<url type="REST">https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>© CC-BY 3.0 AT basemap.at</copyright>
+	<layer>geolandbasemap</layer>
+	<set>google3857</set>
+</map>

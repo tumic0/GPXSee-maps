@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Geographical Institute Tile (標準地図)</name>
+	<url>https://cyberjapandata.gsi.go.jp/xyz/std/$z/$x/$y.png</url>
+	<zoom min="5" max="18"/>
+	<bounds left="122.00" right="154.00" bottom="20.00" top="46.00"/>
+	<copyright>© Geospatial Information Authority of Japan (GSI), U.S. Geological Survey (USGS), British Oceanographic Data Centre (BODC)</copyright>
+</map>

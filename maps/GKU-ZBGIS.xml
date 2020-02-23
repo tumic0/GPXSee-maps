@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>GKÚ - ZBGIS</name>
+	<url>https://zbgisws.skgeodesy.sk/zbgis_wmts/service.svc/get</url>
+	<copyright>ZBGIS®, Úrad geodézie, kartografie a katastra Slovenskej republiky</copyright>
+	<layer>zbgis</layer>
+	<set>zbgis_wmts_jtsk</set>
+</map>

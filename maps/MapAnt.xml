@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>MapAnt</name>
+	<url>http://wmts.mapant.fi/wmts.php</url>
+	<copyright>Map data: National Land Survey of Finland (CC BY 4.0) | Rendering: MapAnt (CC BY 4.0)</copyright>
+	<layer>MapAnt.fi</layer>
+	<set>ETRS-TM35FIN</set>
+</map>

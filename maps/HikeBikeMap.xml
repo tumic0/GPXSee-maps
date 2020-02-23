@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>HikeBikeMap</name>
+	<url>http://a.tiles.wmflabs.org/hikebike/$z/$x/$y.png</url>
+	<copyright>Map data: © OpenStreetMap contributors, ODbL | Rendering: © HikeBikeMap.org, CC-BY-SA</copyright>
+</map>

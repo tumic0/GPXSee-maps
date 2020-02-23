@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Freemap Slovakia</name>
+	<url>https://a.freemap.sk/T/$z/$x/$y.png</url>
+	<zoom min="7" max="16"/>
+	<bounds bottom="47" top="50" left="16.5" right="23"/>
+	<copyright>Mapa © Freemap Slovakia, dáta © prispievatelia OpenStreetMap</copyright>
+</map>

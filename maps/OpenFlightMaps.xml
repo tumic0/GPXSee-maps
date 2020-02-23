@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Open Flighmaps</name>
+	<url>http://snapshots.openflightmaps.org/live/1903/tiles/world/noninteractive/epsg3857/merged/256/latest/$z/$x/$y.png</url>
+	<zoom min="4" max="11"/>
+	<bounds top="71" bottom="33" left="0" right="32"/>
+	<copyright>© OFMA</copyright>
+</map>

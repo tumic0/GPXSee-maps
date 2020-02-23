@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="OSM">
+  <name>UMP-pcPL</name>
+  <url>http://tiles.ump.waw.pl/ump_tiles/$z/$x/$y.png</url>
+  <copyright>© UMP-pcPL | http://ump.waw.pl/ (CC BY-SA 3.0)</copyright>
+</map>

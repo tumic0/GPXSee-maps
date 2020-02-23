@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>TWTOPO-rudy</name>
+	<url>http://rudy.tile.basecamp.tw/$z/$x/$y.png</url>
+	<zoom min="6" max="19"/>
+	<bounds left="118.00" right="123.00" bottom="21.00" top="27.00"/>
+	<copyright>© Rudy Chung</copyright>
+</map>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>UNESCO</name>
+	<url>https://en.unesco.org/tiles/$z/$x/$y.png</url>
+	<zoom min="1" max="9"/>
+	<copyright>© UNESCO</copyright>
+</map>

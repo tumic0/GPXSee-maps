@@ -3,9 +3,8 @@
 import os
 import sys
 import re
+import shutil
 import xml.etree.ElementTree as ET
-
-REPOSITORY = "https://raw.githubusercontent.com/tumic0/GPXSee-maps/master"
 
 COUNTRYCODES = {
 	'AD': 'Andorra',
@@ -281,7 +280,7 @@ def mapinfo(xmlfile):
 		if element.tag == "name":
 			info["name"] = element.text
 
-	info["url"] = REPOSITORY + xmlfile[xmlfile.find('/World'):]
+	info["url"] = "maps/" + os.path.basename(xmlfile)
 
 	png = tile(xmlfile, ".png")
 	jpg = tile(xmlfile, ".jpg")
@@ -294,22 +293,25 @@ def mapinfo(xmlfile):
 
 	return info
 
-def processmaps(maps):
-	print("<table>")
+def processmaps(maps, htmlfile):
+	print("<table>", file=htmlfile)
+	print("<tr>", file=htmlfile)
+	
 	i = 0
-	print("<tr>")
 	for xmlfile in maps:
+		shutil.copyfile(xmlfile, "../maps/" + os.path.basename(xmlfile))
 		info = mapinfo(xmlfile)
 		if i and i % 4 == 0:
-			print("</tr><tr>")
+			print("</tr><tr>", file=htmlfile)
 		print("<td>" + "<a href=\"" + info["url"] + "\" download><img src=\""
 		  + info["tile"] + "\" alt=\"Map Preview\" width=\"256\" height=\"256\"/></a><br/>"
-		  + info["name"] + "</td>")
+		  + info["name"] + "</td>", file=htmlfile)
 		i = i + 1
-	print("</tr>")
-	print("</table>")
 
-def processdir(path, level, name):
+	print("</tr>", file=htmlfile)
+	print("</table>", file=htmlfile)
+
+def processdir(path, level, name, htmlfile):
 	maps = []
 	sections = []
 
@@ -322,16 +324,18 @@ def processdir(path, level, name):
 			maps.append(entrypath)
 
 	if maps:
-		processmaps(maps)
+		processmaps(maps, htmlfile)
 	sections.sort()
 	for section in sections:
-		print(header(section[0], level + 1))
-		processdir(section[1], level + 1, section[0])
+		print(header(section[0], level + 1), file=htmlfile)
+		processdir(section[1], level + 1, section[0], htmlfile)
 
 
 if len(sys.argv) < 2:
 	print("Usage: " + os.path.basename(sys.argv[0]) + " DIR", file=sys.stderr)
 	sys.exit(-1)
+
+htmlfile = open("../index.html", "w")
 
 print("""<!DOCTYPE html>
 <html lang="en">
@@ -344,13 +348,15 @@ print("""<!DOCTYPE html>
 <body>
 <div class="center">
 <h1>GPXSee Online Maps</h1>
-""")
+""", file = htmlfile)
 
-print(header("Worldwide", 2))
-processdir(sys.argv[1], 1, os.path.basename(sys.argv[1]))
+print(header("Worldwide", 2), file=htmlfile)
+processdir(sys.argv[1], 1, os.path.basename(sys.argv[1]), htmlfile)
 
 print("""
 </div>
 </body>
 </html>
-""")
+""", file=htmlfile)
+
+htmlfile.close()

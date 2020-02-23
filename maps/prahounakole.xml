@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Prahou na kole</name>
+	<url>https://tiles.prahounakole.cz/$z/$x/$y.png</url>
+	<bounds top="51" bottom="48.5" left="12" right="19"/>
+	<copyright>Map data: © OpenStreetMap contributors (ODbL) | Rendering: © prahounakole.cz</copyright>
+</map>

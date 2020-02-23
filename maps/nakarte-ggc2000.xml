@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="TMS">
+	<name>GGC 2km</name>
+	<url>https://tiles.nakarte.me/ggc2000/$z/$x/$y</url>
+	<copyright>Map data: GOSGISCENTR</copyright>
+</map>
