@@ -1,9 +1,11 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import os
 import sys
 import re
 import shutil
+import codecs
 import xml.etree.ElementTree as ET
 
 COUNTRYCODES = {
@@ -262,7 +264,7 @@ def sectionname(name):
 		return name
 
 def header(name, level):
-	return "<h" + str(level) + ">" + name + "</h" + str(level) + ">"
+	return "<h" + str(level) + ">" + name + "</h" + str(level) + ">\n"
 
 def tile(xmlfile, suffix):
 	base = os.path.splitext(os.path.basename(xmlfile))[0]
@@ -294,22 +296,21 @@ def mapinfo(xmlfile):
 	return info
 
 def processmaps(maps, htmlfile):
-	print("<table>", file=htmlfile)
-	print("<tr>", file=htmlfile)
-	
+	htmlfile.write("<table>\n<tr>\n")
+
 	i = 0
 	for xmlfile in maps:
 		shutil.copyfile(xmlfile, "../maps/" + os.path.basename(xmlfile))
 		info = mapinfo(xmlfile)
 		if i and i % 4 == 0:
-			print("</tr><tr>", file=htmlfile)
-		print("<td>" + "<a href=\"" + info["url"] + "\" download><img src=\""
-		  + info["tile"] + "\" alt=\"Map Preview\" width=\"256\" height=\"256\"/></a><br/>"
-		  + info["name"] + "</td>", file=htmlfile)
+			htmlfile.write("</tr><tr>\n")
+		htmlfile.write("<td>" + "<a href=\"" + info["url"] + "\" download><img src=\""
+		  + info["tile"]
+		  + "\" alt=\"Map Preview\" width=\"256\" height=\"256\"/></a><br/>"
+		  + info["name"] + "</td>\n")
 		i = i + 1
 
-	print("</tr>", file=htmlfile)
-	print("</table>", file=htmlfile)
+	htmlfile.write("</tr>\n</table>\n")
 
 def processdir(path, level, name, htmlfile):
 	maps = []
@@ -327,17 +328,17 @@ def processdir(path, level, name, htmlfile):
 		processmaps(maps, htmlfile)
 	sections.sort()
 	for section in sections:
-		print(header(section[0], level + 1), file=htmlfile)
+		htmlfile.write(header(section[0], level + 1))
 		processdir(section[1], level + 1, section[0], htmlfile)
 
 
 if len(sys.argv) < 2:
-	print("Usage: " + os.path.basename(sys.argv[0]) + " DIR", file=sys.stderr)
+	sys.stderr.write("Usage: " + os.path.basename(sys.argv[0]) + " WORLDDIR\n")
 	sys.exit(-1)
 
-htmlfile = open("../index.html", "w")
+htmlfile = codecs.open("../index.html", "w", encoding='utf-8')
 
-print("""<!DOCTYPE html>
+htmlfile.write("""<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>GPXSee Online Maps</title>
@@ -348,15 +349,22 @@ print("""<!DOCTYPE html>
 <body>
 <div class="center">
 <h1>GPXSee Online Maps</h1>
-""", file = htmlfile)
+<p>GPXSee online map definition files ready to use. Simply download the XML file
+and open it in GPXSee as a map file. To use the map permanently, copy the file
+to the &quot;maps&quot; directory as found under Help->Paths.</p>
+<p><small>Some maps require API keys or user credentials. Such map definition
+files have a &quot;.tpl&quot; extension instead of the usual &quot;.xml&quot;
+extension. You must fill in the required info and rename the file before you can
+use it in GPXSee.</small></p>
+""")
 
-print(header("Worldwide", 2), file=htmlfile)
+htmlfile.write(header("Worldwide", 2))
 processdir(sys.argv[1], 1, os.path.basename(sys.argv[1]), htmlfile)
 
-print("""
+htmlfile.write("""
 </div>
 </body>
 </html>
-""", file=htmlfile)
+""")
 
 htmlfile.close()

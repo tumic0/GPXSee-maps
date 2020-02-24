@@ -34,3 +34,8 @@ h3 {
 	background:#000000;
 	border-radius:5px;
 }
+.center p {
+	margin-left:10px;
+	width:60%;
+	color:#ffffff;
+}
