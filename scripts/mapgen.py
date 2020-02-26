@@ -299,6 +299,7 @@ def processmaps(maps, htmlfile):
 	htmlfile.write("<table>\n<tr>\n")
 
 	i = 0
+	maps.sort()
 	for xmlfile in maps:
 		shutil.copyfile(xmlfile, "../maps/" + os.path.basename(xmlfile))
 		info = mapinfo(xmlfile)
