@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+	<name>Hamburg DOP</name>
+	<url>https://geodienste.hamburg.de/HH_WMS_DOP</url>
+	<copyright>Landesbetrieb Geoinformation und Vermessung Hamburg</copyright>
+	<layer>1</layer>
+	<crs>EPSG:25832</crs>
+</map>
