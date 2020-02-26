@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+	<name>Bayern DOP</name>
+	<url>https://geoservices.bayern.de/wms/v2/ogc_dop80_oa.cgi</url>
+	<copyright>Landesamt für Digitalisierung, Breitband und Vermessung</copyright>
+	<layer>by_dop80c</layer>
+	<crs>EPSG:25833</crs>
+</map>
