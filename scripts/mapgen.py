@@ -298,11 +298,14 @@ def mapinfo(xmlfile):
 def processmaps(maps, htmlfile):
 	htmlfile.write("<table>\n<tr>\n")
 
-	i = 0
-	maps.sort()
+	items = []
 	for xmlfile in maps:
 		shutil.copyfile(xmlfile, "../maps/" + os.path.basename(xmlfile))
-		info = mapinfo(xmlfile)
+		items.append(mapinfo(xmlfile))
+	items.sort(key=lambda tup: tup["name"])
+
+	i = 0
+	for info in items:
 		if i and i % 4 == 0:
 			htmlfile.write("</tr><tr>\n")
 		htmlfile.write("<td>" + "<a href=\"" + info["url"] + "\" download><img src=\""
