@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMTS">
+	<name>Nordrhein-Westfalen DOP</name>
+	<url type="REST">https://www.wmts.nrw.de/geobasis/wmts_nw_dop/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Geobasis NRW, dl-de-zero-2.0</copyright>
+	<layer>nw_dop</layer>
+	<set>EPSG_25832_16</set>
+</map>
