@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="WMS">
+	<name>Rheinland-Pfalz DTK5</name>
+	<url>https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=24142&amp;withChilds=1</url>
+	<copyright>Vermessungs- und Katasterverwaltung Rheinland-Pfalz, dl-de/by-2-0</copyright>
+	<layer>rp_dtk5</layer>
+	<crs>EPSG:3857</crs>
+</map>
