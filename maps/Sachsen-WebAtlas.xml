@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+	<name>Sachsen WebAtlas</name>
+	<url>https://geodienste.sachsen.de/wms_geosn_webatlas-sn/guest</url>
+	<!--
+	The WMS server has broken label rendering which cuts the labels on the tile
+	bounds. As a workaround we set the tile size to 512px which makes the cut
+	labels less common. (Works with GPXSee >= 7.24)
+	-->
+	<tile size="512"/>
+	<copyright>Staatsbetrieb Geobasisinformation und Vermessung Sachsen (GeoSN)</copyright>
+	<layer>Vegetation,Siedlung,Gewaesser,Verkehr,Administrative_Einheiten,Beschriftung</layer>
+	<crs>EPSG:25832</crs>
+</map>
