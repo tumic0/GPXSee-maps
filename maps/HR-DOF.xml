@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+	<name>Digitalni ortofoto</name>
+	<url>http://geoportal.dgu.hr/wms</url>
+	<copyright>Državna geodetska uprava</copyright>
+	<layer>DOF</layer>
+	<crs>EPSG:3765</crs>
+</map>
