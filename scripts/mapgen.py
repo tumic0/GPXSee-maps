@@ -308,10 +308,11 @@ def processmaps(maps, htmlfile):
 	for info in items:
 		if i and i % 4 == 0:
 			htmlfile.write("</tr><tr>\n")
+		template = "  <small>[TPL]</small>" if info["url"].endswith(".tpl") else ""
 		htmlfile.write("<td>" + "<a href=\"" + info["url"] + "\" download><img src=\""
 		  + info["tile"]
 		  + "\" alt=\"Map Preview\" width=\"256\" height=\"256\"/></a><br/>"
-		  + info["name"] + "</td>\n")
+		  + info["name"] + template + "</td>\n")
 		i = i + 1
 
 	htmlfile.write("</tr>\n</table>\n")
@@ -353,13 +354,14 @@ htmlfile.write("""<!DOCTYPE html>
 <body>
 <div class="center">
 <h1>GPXSee Online Maps</h1>
-<p>GPXSee online map definition files ready to use. Simply download the XML file
-and open it in GPXSee as a map file. To use the map permanently, copy the file
-to the &quot;maps&quot; directory as found under Help->Paths.</p>
+<p><a href="https://www.gpxsee.org">GPXSee</a> online map definition files
+ready to use. Simply download the XML file and open it in GPXSee as a map
+file. To use the map permanently, copy the file to the &quot;maps&quot;
+directory as found under Help->Paths.</p>
 <p><small>Some maps require API keys or user credentials. Such map definition
 files have a &quot;.tpl&quot; extension instead of the usual &quot;.xml&quot;
-extension. You must fill in the required info and rename the file before you can
-use it in GPXSee.</small></p>
+extension. You must fill in the required info and rename the file before you
+can use it in GPXSee.</small></p>
 """)
 
 htmlfile.write(header("Worldwide", 2))

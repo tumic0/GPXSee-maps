@@ -28,6 +28,16 @@ h3 {
 	margin-bottom:0;
 	padding-bottom:0;
 }
+a {
+	color:white;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+small {
+	color:grey;
+}
 .center {
 	margin:20px auto;
 	width:1124px;
