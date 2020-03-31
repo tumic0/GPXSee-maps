@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="TMS">
+	<name>ChartBundle.com - Sectional</name>
+	<url>http://wms.chartbundle.com/tms/1.0.0/sec/$z/$x/$y.png</url>
+	<zoom min="2" max="13"/>
+	<copyright>ChartBundle.com, FAA</copyright>
+</map>
