@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>OpenTopoMap.ru</name>
+	<url>https://tile-a.opentopomap.ru/$z/$x/$y.png</url>
+	<zoom max="18"/>
+	<copyright>Map data: © OpenStreetMap contributors (ODbL), SRTM | Map style: © OpenTopoMap, OpenTopoap.ru (CC-BY-SA)</copyright>
+</map>
