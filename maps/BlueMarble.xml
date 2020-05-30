@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>BlueMarble</name>
+	<url type="REST">https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>NASA</copyright>
+	<layer>BlueMarble_ShadedRelief_Bathymetry</layer>
+	<set>GoogleMapsCompatible_Level8</set>
+</map>
