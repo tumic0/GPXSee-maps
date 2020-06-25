@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
+	<name>SDFE - Ortofoto forår</name>
+	<url>https://services.kortforsyningen.dk/orto_foraar?token=d12107f70a3ee93153f313c7c502169a</url>
+	<copyright>Styrelsen for Dataforsyning og Effektivisering</copyright>
+	<layer>orto_foraar</layer>
+	<crs>EPSG:25832</crs>
+</map>
