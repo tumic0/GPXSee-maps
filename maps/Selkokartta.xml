@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>Selkokartta (Plain map)</name>
-	<url>https://retkikartta.fi/wmts/30c616a00f157e7357721900e8b0415c</url>
+	<url type="REST">https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/WMTSCapabilities.xml</url>
 	<copyright>Map data: National Land Survey of Finland (CC BY 4.0)</copyright>
 	<layer>selkokartta</layer>
 	<set>ETRS-TM35FIN</set>
