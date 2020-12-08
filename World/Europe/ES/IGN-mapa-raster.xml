@@ -4,5 +4,5 @@
 	<url>http://www.ign.es/wmts/mapa-raster</url>
 	<copyright>© Instituto Geográfico Nacional</copyright>
 	<layer>MTN</layer>
-	<set>EPSG:4326</set>
+	<set>GoogleMapsCompatible</set>
 </map>
