@@ -3,6 +3,6 @@
 	<name>Hamburg DOP</name>
 	<url>https://geodienste.hamburg.de/HH_WMS_DOP</url>
 	<copyright>Landesbetrieb Geoinformation und Vermessung Hamburg</copyright>
-	<layer>1</layer>
+	<layer>DOP_2018_highres</layer>
 	<crs>EPSG:25832</crs>
 </map>
