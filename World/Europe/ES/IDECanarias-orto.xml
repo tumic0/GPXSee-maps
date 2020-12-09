@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
+	<name>IDECanarias Orto</name>
+	<url>https://idecan1.grafcan.es/ServicioWMS/OrtoUrb</url>
+	<copyright>© GRAFCAN, non-commercial use only</copyright>
+	<layer>OrtoExpressUrb</layer>
+	<crs>EPSG:32628</crs>
+	<format>image/jpeg</format>
+</map>
