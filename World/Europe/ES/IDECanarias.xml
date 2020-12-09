@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
+	<name>IDECanarias Mapa Topográfico</name>
+	<url>https://idecan1.grafcan.es/ServicioWMS/MT20</url>
+	<copyright>© GRAFCAN, non-commercial use only</copyright>
+	<layer>WMS_MT20</layer>
+	<crs>EPSG:32628</crs>
+	<format>image/jpeg</format>
+</map>
