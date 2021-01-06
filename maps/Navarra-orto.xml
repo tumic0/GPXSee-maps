@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>IDENA - Ortofoto</name>
+	<url type="REST">https://idena.navarra.es/ogc/wmts/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>IDENA, CC BY 4.0</copyright>
+	<layer>ortofoto_maxima_actualidad</layer>
+	<set>epsg25830</set>
+</map>
