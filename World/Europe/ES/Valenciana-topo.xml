@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>ICV - Mapa topográfico</name>
+	<url>https://terramapas.icv.gva.es/mapabase_topografico/wmts</url>
+	<copyright>Institut Cartogràfic Valencià (ICV)</copyright>
+	<layer>topografico_continuo_epsg3857</layer>
+	<set>GMEPSG3857</set>
+</map>
