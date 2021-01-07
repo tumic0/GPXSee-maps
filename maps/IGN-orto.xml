@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Ortoimágenes de España</name>
+	<url>http://www.ign.es/wmts/pnoa-ma</url>
+	<copyright>© Instituto Geográfico Nacional</copyright>
+	<layer>OI.OrthoimageCoverage</layer>
+	<set>EPSG:25830</set>
+</map>
