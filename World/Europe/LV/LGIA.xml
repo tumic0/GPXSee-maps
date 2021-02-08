@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>LGIA - topo</name>
+	<url type="REST">http://kartes.lgia.gov.lv/arcgis/rest/services/mobilais/topo_mobilais/MapServer/WMTS</url>
+	<copyright>© Latvijas Ģeotelpiskās informācijas aģentūra</copyright>
+	<layer>mobilais_topo_mobilais</layer>
+	<set>default028mm</set>
+</map>
