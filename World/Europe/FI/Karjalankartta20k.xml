@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
-	<name>Karjalankartta (Maps of Karelia) 1:20 000</name>
+	<name>Karjalankartta (Maps of Karelia) 20k</name>
 	<url>https://mapservices.navici.com/karjalankartat/wms?apikey=4NIgWBON5qRTx8ePtDbQNR0YojJkhlFB</url>
 	<copyright>Map data: National Land Survey of Finland</copyright>
 	<layer>topo20k_group</layer>
