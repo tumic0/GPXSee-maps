@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
-	<name>Topografska karta 1:25000</name>
+	<name>Topografska karta 25k</name>
 	<url>http://geoportal.dgu.hr/wms</url>
 	<!--
 	The WMS server often returns "service unavailable" due to too many
