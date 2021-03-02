@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
 	<name>Digitalni ortofoto</name>
 	<url>http://geoportal.dgu.hr/wms</url>
+	<!--
+	The WMS server often returns "service unavailable" due to too many
+	requests. Making the tiles larger helps a bit.
+	-->
+	<tile size="512"/>
 	<copyright>Državna geodetska uprava</copyright>
 	<layer>DOF</layer>
 	<crs>EPSG:3765</crs>
