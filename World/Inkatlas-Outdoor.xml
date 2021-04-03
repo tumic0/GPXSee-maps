@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Inkatlas Outdoor Map</name>
+	<url>https://tile.inkatlas.com/inkatlas/outdoor/$z/$x/$y.png</url>
+	<copyright>Map data: © OpenStreetMap contributors (ODbL) | Rendering: © Inkatlas OÜ</copyright>
+</map>
