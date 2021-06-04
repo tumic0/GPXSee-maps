@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- HTTP2 must be disabled, when using this map, the HTTP2 connection upgrade
+     is broken on the server or in Qt (or both) -->
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>LEII - topo</name>
+	<url type="REST">https://www.geoportal.lt/arcgis/rest/services/geoportal_public/background_Lietuva_3346/MapServer/WMTS/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>© Nacionalinė žemės tarnyba prie Žemės ūkio ministerijos</copyright>
+	<layer>geoportal_public_background_Lietuva_3346</layer>
+	<set>default028mm</set>
+</map>
