@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Wallonia orthophotos</name>
+	<url type="REST">https://geoservices.wallonie.be/arcgis/rest/services/IMAGERIE/ORTHO_LAST/MapServer/WMTS/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Service public de Wallonie</copyright>
+	<layer>IMAGERIE_ORTHO_LAST</layer>
+	<set>default028mm</set>
+</map>
