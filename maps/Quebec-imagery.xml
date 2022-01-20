@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Quebec Imagery</name>
+	<url>https://servicesmatriciels.mern.gouv.qc.ca/erdas-iws/ogc/wmts/Imagerie_Continue</url>
+	<copyright>© Ministère de l’Énergie et des Ressources naturelles</copyright>
+	<format>image/jpeg</format>
+	<layer>Imagerie_GQ</layer>
+	<set>Lambert:epsg:32198</set>
+</map>
