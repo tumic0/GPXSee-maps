@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>SkyDreamSoft SDOACI</name>
+	<url>https://sdoaci.skydreamsoft.fr/current_cycle/Z$z/$y/$x.png</url>
+	<copyright>SkyDreamSoft</copyright>
+	<zoom min="1" max="12"/>
+	<tile size="512"/>
+</map>
