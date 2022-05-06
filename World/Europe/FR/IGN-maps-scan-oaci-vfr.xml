@@ -2,7 +2,7 @@
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
     <name>Carte OACI-VFR</name>
     <url>https://wxs.ign.fr/an7nvfzojv5wa96dsga5nk8w/geoportail/wmts</url>
-    <copyright>Organisation de l'aviation civile internationale</copyright>
+    <copyright>IGN Géoportail / Organisation de l'aviation civile internationale</copyright>
     <format>image/jpeg</format>
     <layer>GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-OACI</layer>
     <set>PM</set>
