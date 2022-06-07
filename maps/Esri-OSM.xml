@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Esri OpenStreetMap v2</name>
+	<url>https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/tile/$z/$y/$x.pbf</url>
+	<tile type="vector" size="512"/>
+	<copyright>© Esri, © OpenStreetMap</copyright>
+</map>
