@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4" type="TMS">
+<map xmlns="http://www.gpxsee.org/map/1.4">
 	<name>Slazav mountains</name>
-	<url>https://tiles.nakarte.me/map_hr/$z/$x/$y</url>
+	<url>https://slazav.xyz/tiles/hr/$x-$y-$z.png</url>
 	<zoom min="7" max="13"/>
 	<bounds left="40.00" right="142.00" bottom="31.00" top="71.00"/>
 	<copyright>© Vladislav Zavjalov</copyright>
