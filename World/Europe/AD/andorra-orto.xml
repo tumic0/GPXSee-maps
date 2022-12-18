@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
+	<name>Andorra Orto</name>
+	<url>https://www.ideandorra.ad/Serveis/wms</url>
+	<copyright>IDE Andorra</copyright>
+	<layer>wmsorto2012:orto2012</layer>
+	<crs>EPSG:23031</crs>
+</map>
