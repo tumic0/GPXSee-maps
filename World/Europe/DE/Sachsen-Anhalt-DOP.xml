@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
 	<name>Sachsen-Anhalt DOP</name>
 	<url>https://www.geodatenportal.sachsen-anhalt.de/wss/service/ST_LVermGeo_DOP_guest/guest</url>
 	<copyright>Landesamt für Vermessung und Geoinformation Sachsen-Anhalt</copyright>
