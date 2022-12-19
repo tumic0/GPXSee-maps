@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
 	<name>Sachsen DOP</name>
 	<url>https://geodienste.sachsen.de/wms_geosn_dop-rgb/guest</url>
 	<copyright>Staatsbetrieb Geobasisinformation und Vermessung Sachsen (GeoSN)</copyright>

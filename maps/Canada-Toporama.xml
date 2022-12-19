@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1" type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
 	<name>Canada - Toporama</name>
 	<url>http://wms.ess-ws.nrcan.gc.ca/wms/toporama_en</url>
 	<!--

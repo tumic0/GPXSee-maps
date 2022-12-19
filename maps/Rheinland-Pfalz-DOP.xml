@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
 	<name>Rheinland-Pfalz DOP</name>
 	<url>https://www.geoportal.rlp.de/mapbender/php/wms.php?layer_id=61675&amp;withChilds=1</url>
 	<copyright>Vermessungs- und Katasterverwaltung Rheinland-Pfalz, dl-de/by-2-0</copyright>
