@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Basemap AT HiDpi</name>
+	<url type="REST">https://www.basemap.at/wmts/1.0.0/WMTSCapabilities.xml</url>
+	<tile pixelRatio="2"/>
+	<copyright>© CC-BY 3.0 AT basemap.at</copyright>
+	<format>image/jpeg</format>
+	<layer>bmaphidpi</layer>
+	<style>normal</style>
+	<set>google3857</set>
+</map>
