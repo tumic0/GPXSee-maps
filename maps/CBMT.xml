@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>CBMT</name>
+	<url type="REST">https://maps-cartes.services.geo.ca/server2_serveur2/rest/services/BaseMaps/CBCT3978/MapServer/WMTS/1.0.0/WMTSCapabilities.xml</url>
+	<copyright> © Sa Majesté le Roi du chef du Canada, représenté par le ministre de Ressources naturelles Canada</copyright>
+	<format>image/jpgpng</format>
+	<layer>BaseMaps_CBCT3978</layer>
+	<set>default028mm</set>
+</map>
