@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>PDOK TOP10NL</name>
+	<url>https://service.pdok.nl/brt/top10nl/wmts/v1_0</url>
+	<copyright>© CC-BY Kadaster</copyright>
+	<format>image/png</format>
+	<layer>top10nl</layer>
+	<style>default</style>
+	<set>EPSG:28992</set>
+</map>

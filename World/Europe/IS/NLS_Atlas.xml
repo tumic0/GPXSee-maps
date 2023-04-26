@@ -3,7 +3,7 @@
 	<name>Iceland Atlas</name>
 	<url>https://gis.lmi.is/geoserver/gwc/service/wmts</url>
 	<copyright>Map data: National Land Survey of Iceland</copyright>
-	<format>image/jpeg</format>
+	<format>image/png</format>
 	<layer>LMI_raster:atlas</layer>
-	<set>EPSG:3057_1024</set>
+	<set>EPSG:3057</set>
 </map>
