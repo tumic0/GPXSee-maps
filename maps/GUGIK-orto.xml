@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>GUGIK Ortofotomapa</name>
-	<url>https://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/ORTO</url>
+	<url>https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution</url>
 	<copyright>© Główny Urząd Geodezji i Kartografii</copyright>
 	<format>image/jpeg</format>
 	<layer>ORTOFOTOMAPA</layer>
