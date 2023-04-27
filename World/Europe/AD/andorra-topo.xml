@@ -4,5 +4,5 @@
 	<url>https://www.ideandorra.ad/Serveis/wms</url>
 	<copyright>IDE Andorra</copyright>
 	<layer>fons</layer>
-	<crs>EPSG:23031</crs>
+	<crs>EPSG:27563</crs>
 </map>
