@@ -7,8 +7,8 @@ was added in GPXSee 8.9, the map will not work with older versions of GPXSee.
 	<name>Swisstopo - Swissimage</name>
 	<url type="REST">https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml</url>
 	<copyright>Bundesamt für Landestopografie swisstopo</copyright>
-	<layer>ch.swisstopo.swissimage</layer>
-	<style>ch.swisstopo.swissimage</style>
-	<set>3857_21</set>
+	<layer>ch.swisstopo.swissimage-product</layer>
+	<style>ch.swisstopo.swissimage-product</style>
+	<set>3857_20</set>
 	<dimension id="Time">current</dimension>
 </map>
