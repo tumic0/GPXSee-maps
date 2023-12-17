@@ -4,6 +4,6 @@
 	<url>https://api.maptiler.com/tiles/v3/$z/$x/$y.pbf?key=insert-your-apikey-here</url>
 	<!-- The tile size is 512px since QtPBFImagePlugin v2, use 256 if you have v1 -->
 	<tile type="vector" size="512"/>
-	<zoom max="14"/>
+	<zoom max="15"/>
 	<copyright>© MapTiler © OpenStreetMap contributors</copyright>
 </map>
