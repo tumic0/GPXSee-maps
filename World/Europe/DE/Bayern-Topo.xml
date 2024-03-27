@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Bayern Topo</name>
+	<url type="REST">https://geoservices.bayern.de/od/wmts/geobasis/v1/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Landesamt für Digitalisierung, Breitband und Vermessung</copyright>
+	<layer>by_amtl_karte</layer>
+	<set>bvv_gk4</set>
+</map>
