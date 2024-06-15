@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This map requires a style for the VersaTiles tile scheme like
+	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/VersaTiles/colorful
+	The default OpenMapTiles tile scheme style included in QtPBFImagePlugin
+	won't display the map properly!
+-->
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>VersaTiles</name>
+	<url>https://tiles.versatiles.org/tiles/osm/$z/$x/$y</url>
+	<tile type="vector" size="512"/>
+	<zoom max="14"/>
+	<copyright>© OpenStreetMap contributors</copyright>
+</map>
