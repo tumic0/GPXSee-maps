@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>NLSC - PHOTO2020</name>
+	<url>https://wmts.nlsc.gov.tw/wmts</url>
+	<copyright>NLSC</copyright>
+	<layer>PHOTO2020</layer>
+	<set>GoogleMapsCompatible</set>
+	<format>image/jpeg</format>
+</map>
