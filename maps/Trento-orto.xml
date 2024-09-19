@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
+	<name>Trento Orthophoto</name>
+	<url>https://siat.provincia.tn.it/geoserver/stem/ecw-rgb-2015/wms</url>
+	<copyright>Provincia Autonoma di Trento, CC BY 4.0</copyright>
+	<layer>ecw-rgb-2015</layer>
+	<crs>EPSG:25832</crs>
+</map>

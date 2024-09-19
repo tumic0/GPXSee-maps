@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Lombardia Orthophoto</name>
+	<url>https://www.cartografia.servizirl.it/arcgis2/rest/services/BaseMap/Ortofoto2021/ImageServer/WMTS</url>
+	<copyright>© Regione Lombardia</copyright>
+	<layer>BaseMap_Ortofoto2021</layer>
+	<set>default028mm</set>
+	<format>image/jpgpng</format>
+</map>
