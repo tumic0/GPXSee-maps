@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Statkart.no Sjøkart</name>
+	<url>https://cache.kartverket.no/v1/wmts/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Norwegian Mapping Authority</copyright>
+	<layer>sjokartraster</layer>
+	<set>utm33n</set>
+</map>
