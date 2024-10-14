@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>GUGIK Mapa podkladowa</name>
+	<url>http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/G2_MOBILE_500</url>
+	<copyright>© Główny Urząd Geodezji i Kartografii</copyright>
+	<layer>G2_MOBILE_500</layer>
+	<set>EPSG:2180</set>
+</map>
