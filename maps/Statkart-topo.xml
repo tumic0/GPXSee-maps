@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Statkart.no Topo</name>
+	<url>https://cache.kartverket.no/v1/wmts/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Norwegian Mapping Authority</copyright>
+	<layer>toporaster</layer>
+	<set>utm33n</set>
+</map>
