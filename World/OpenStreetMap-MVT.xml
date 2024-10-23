@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This map requires a style for the VersaTiles tile scheme like
+	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/VersaTiles/colorful.
+	The default OpenMapTiles tile scheme style included in QtPBFImagePlugin
+	won't display the map properly!
+-->
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>Open Street Map - MVT</name>
+	<url>https://vector.openstreetmap.org/shortbread_v1/$z/$x/$y.mvt</url>
+	<tile type="vector" size="512"/>
+	<zoom max="14"/>
+	<copyright>© OpenStreetMap contributors (ODbL)</copyright>
+</map>
