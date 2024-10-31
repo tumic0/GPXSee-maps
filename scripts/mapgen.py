@@ -263,8 +263,8 @@ def sectionname(name):
 	else:
 		return name
 
-def header(name, level):
-	return "<h" + str(level) + ">" + name + "</h" + str(level) + ">\n"
+def header(name, code, level):
+	return "<h" + str(level) + " id=\"" + code + "\">" + name + "</h" + str(level) + ">\n"
 
 def tile(xmlfile, suffix):
 	base = os.path.splitext(os.path.basename(xmlfile))[0]
@@ -325,7 +325,7 @@ def processdir(path, level, name, htmlfile):
 	for entry in entries:
 		entrypath = os.path.join(path, entry)
 		if (os.path.isdir(entrypath)):
-			sections.append((sectionname(entry), entrypath))
+			sections.append((sectionname(entry), entry, entrypath))
 		else:
 			maps.append(entrypath)
 
@@ -333,8 +333,8 @@ def processdir(path, level, name, htmlfile):
 		processmaps(maps, htmlfile)
 	sections.sort()
 	for section in sections:
-		htmlfile.write(header(section[0], level + 1))
-		processdir(section[1], level + 1, section[0], htmlfile)
+		htmlfile.write(header(section[0], section[1], level + 1))
+		processdir(section[2], level + 1, section[0], htmlfile)
 
 
 if len(sys.argv) < 2:
@@ -364,7 +364,7 @@ extension. You must fill in the required info and rename the file before you
 can use it in GPXSee.</small></p>
 """)
 
-htmlfile.write(header("Worldwide", 2))
+htmlfile.write(header("Worldwide", "Worldwide", 2))
 processdir(sys.argv[1], 1, os.path.basename(sys.argv[1]), htmlfile)
 
 htmlfile.write("""
