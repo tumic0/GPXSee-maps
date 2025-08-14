@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This map requires a style for the IGN tile scheme like
+	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/IGN/IGN
+	The default OpenMapTiles tile scheme style included in QtPBFImagePlugin
+	won't display the map properly!
+-->
+<map xmlns="http://www.gpxsee.org/map/1.4">
+	<name>IGN Vector Map</name>
+	<url>https://data.geopf.fr/tms/1.0.0/PLAN.IGN/$z/$x/$y.pbf</url>
+	<tile type="vector" size="512"/>
+	<zoom max="18"/>
+	<copyright>IGN</copyright>
+</map>
