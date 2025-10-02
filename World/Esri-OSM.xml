@@ -2,12 +2,10 @@
 <!--
 	This map requires a style for the Esri tile scheme like
 	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/Esri/street
-	The default OpenMapTiles tile scheme style included in QtPBFImagePlugin
-	won't display the map properly!
 -->
-<map xmlns="http://www.gpxsee.org/map/1.4">
+<map xmlns="http://www.gpxsee.org/map/1.6">
 	<name>Esri OpenStreetMap v2</name>
 	<url>https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer/tile/$z/$y/$x.pbf</url>
-	<tile type="vector" size="512"/>
+	<tile type="vector" size="512" vectorLayers="aboriginal land,aboriginal land/label,administrative boundary,administrative label/label,aerialway,aerialway/label,aerodrome area,aerodrome area/label,aerodrome point,aeroway,aeroway/label,amenity area,amenity area/label,amenity area (low priority),amenity line,amenity line/label,amenity point,amenity point (low priority),Antarctica,Antarctica outline,beach,beach/label,capital,cemetery,cemetery/label,country boundary (small scale),Daylight address area/label,Daylight building,Daylight building/label,Daylight path,Daylight road,ferry route,ferry route/label,interpolation,island/label,junction area/label,junction point,landcover,landcover/label,ocean (large scale),ocean (small scale),OSM address area/label,OSM address point,OSM building,OSM building/label,OSM major building,OSM major building/label,other path,other path (bridge),other path (bridge)/label,other path/label,other path (tunnel),other path (tunnel)/label,parking entrance multi-storey,path,path (bridge),path (bridge)/label,path/label,path (tunnel),path (tunnel)/label,pier area,pier line,place (high importance),place (low importance),place (medium importance),place of worship area,place of worship area/label,place of worship point,place (small),private access area,private access area/label,private access point,protected area,protected area/label,railway,railway (bridge),railway (bridge)/label,railway/label,railway station area,railway station area/label,railway station point,railway (tunnel),railway (tunnel)/label,road,road (bridge),road (bridge)/label,road/label,road link,road link (bridge),road link (tunnel),road (tunnel),road (tunnel)/label,service road,service road (bridge),service road (bridge)/label,service road/label,service road (tunnel),service road (tunnel)/label,shop area,shop area/label,shop point,station area,station area/label,station point,track,track (bridge),track (bridge)/label,track/label,track (tunnel),track (tunnel)/label,transportation area,transportation area/label,vending machine area,vending machine area/label,vending machine point,water area,water area/label,water line (intermittent),water line (intermittent)/label,water line (perennial),water line (perennial)/label,waterway,waterway/label,wetland"/>
 	<copyright>© Esri, © OpenStreetMap</copyright>
 </map>

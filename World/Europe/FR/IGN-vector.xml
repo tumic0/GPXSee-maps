@@ -2,13 +2,11 @@
 <!--
 	This map requires a style for the IGN tile scheme like
 	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/IGN/IGN
-	The default OpenMapTiles tile scheme style included in QtPBFImagePlugin
-	won't display the map properly!
 -->
-<map xmlns="http://www.gpxsee.org/map/1.4">
+<map xmlns="http://www.gpxsee.org/map/1.6">
 	<name>IGN Vector Map</name>
 	<url>https://data.geopf.fr/tms/1.0.0/PLAN.IGN/$z/$x/$y.pbf</url>
-	<tile type="vector" size="512"/>
+	<tile type="vector" size="512" vectorLayers="bati_lin,bati_ponc,bati_surf,bati_zai,bati_zone_surf,ferre,ferre_sou,ferre_sup,fond_opaque,hydro_ponc,hydro_reseau,hydro_reseau_sou,hydro_reseau_sup,hydro_surf,limite_lin,ocs_nature_sol_surf,ocs_vegetation_surf,oro_courbe,oro_lin,oro_ponc,oro_relief,routier_chemin,routier_chemin_sou,routier_chemin_sup,routier_liaison,routier_ponc,routier_route,routier_route_sou,routier_route_sup,routier_surf,toponyme_bati_ponc,toponyme_ferre_lin,toponyme_hydro_lin,toponyme_hydro_ponc,toponyme_limite_ponc,toponyme_localite_ponc,toponyme_ocs_lin,toponyme_ocs_ponc,toponyme_oro_lin,toponyme_oro_ponc,toponyme_parcellaire_adresse_ponc,toponyme_routier_borne,toponyme_routier_liaison_lin,toponyme_routier_numero_lin,toponyme_routier_odonyme_lin"/>
 	<zoom max="18"/>
 	<copyright>IGN</copyright>
 </map>
