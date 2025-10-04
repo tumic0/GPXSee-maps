@@ -2,13 +2,11 @@
 <!--
 	This map requires a style for the WebVektor tile scheme like
 	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/WebVektor/Farbe
-	The default OpenMapTiles tile scheme style included in QtPBFImagePlugin
-	won't display the map properly!
 -->
-<map xmlns="http://www.gpxsee.org/map/1.4">
+<map xmlns="http://www.gpxsee.org/map/1.6">
 	<name>WebVektor</name>
-	<url>https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v1/bm_web_de_3857/$z/$x/$y.pbf</url>
-	<tile type="vector" size="512"/>
+	<url>https://sgx.geodatenzentrum.de/gdz_basemapde_vektor/tiles/v2/bm_web_de_3857/$z/$x/$y.pbf</url>
+	<tile type="vector" size="512" vectorLayers="Adresse,Barrierenlinie,Bauwerksflaeche,Bauwerkslinie,Bauwerkspunkt,Gebaeudeflaeche,Gebaeudepunkt,Gewaesserflaeche,Gewaesserlinie,Gewaesserpunkt,Grenze_Flaeche,Grenze_Linie,Hintergrund,Historische_Flaeche,Historische_Linie,Historischer_Punkt,Name_Punkt,Reliefflaeche,Relieflinie,Reliefpunkt,Siedlungsflaeche,Vegetationsflaeche,Vegetationslinie,Vegetationspunkt,Verkehrsflaeche,Verkehrslinie,Verkehrspunkt,Versorgungslinie,Weitere_Nutzung_Flaeche"/>
 	<zoom max="15"/>
 	<copyright>© 2023 basemap.de / BKG | Datenquellen: © GeoBasis-DE</copyright>
 </map>
