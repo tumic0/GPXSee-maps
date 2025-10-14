@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This map requires a style for the GSI tile scheme like
+	https://github.com/tumic0/QtPBFImagePlugin-styles/tree/master/GSI/std
+-->
+<map xmlns="http://www.gpxsee.org/map/1.6">
+	<name>GSI Vector Tiles</name>
+	<url>https://cyberjapandata.gsi.go.jp/xyz/experimental_bvmap/$z/$x/$y.pbf</url>
+	<zoom min="4" max="16"/>
+	<bounds left="120" top="50" bottom="13" right="158"/>
+	<tile type="vector" size="512" vectorLayers="boundary,building,coastline,contour,elevation,label,lake,landforma,landforml,landformp,railway,river,road,searoute,structurea,structurel,symbol,transp,waterarea,wstructurea"/>
+	<copyright>© Geospatial Information Authority of Japan (GSI)</copyright>
+</map>
