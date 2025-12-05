@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Swisstopo uses yet another nonstandard CRS urn format. Support for this format
+was added in GPXSee 8.9, the map will not work with older versions of GPXSee.
+-->
+<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+	<name>Swisstopo - Mountainbikeland</name>
+	<url type="REST">https://wmts.geo.admin.ch/EPSG/3857/1.0.0/WMTSCapabilities.xml</url>
+	<copyright>Bundesamt für Landestopografie swisstopo</copyright>
+	<layer>ch.astra.mountainbikeland</layer>
+	<style>ch.astra.mountainbikeland</style>
+	<set>3857_18</set>
+	<dimension id="Time">current</dimension>
+</map>
