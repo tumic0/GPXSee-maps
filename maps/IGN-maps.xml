@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
 	<name>Cartes IGN</name>
-	<url>https://wxs.ign.fr/pratique/geoportail/wmts</url>
+	<url>https://data.geopf.fr/wmts</url>
 	<copyright>Institut national de l’information géographique et forestière</copyright>
 	<layer>GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2</layer>
 	<style>normal</style>
-	<set>PM</set>
+	<set>PM_0_19</set>
 </map>
