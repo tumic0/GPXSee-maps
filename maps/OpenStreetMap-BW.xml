@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4">
+<map xmlns="http://www.gpxsee.org/map/1.7">
 	<name>Open Street Map - Black and White</name>
 	<url>https://tiles.wmflabs.org/bw-mapnik/$z/$x/$y.png</url>
 	<zoom max="18"/>

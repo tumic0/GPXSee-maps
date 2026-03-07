@@ -3,7 +3,7 @@
 	This map requires a style for the Tilezen tile scheme like
 	https://github.com/tumic0/QtPBFImagePlugin-styles/blob/master/Tilezen/apollo-bright
 -->
-<map xmlns="http://www.gpxsee.org/map/1.6">
+<map xmlns="http://www.gpxsee.org/map/1.7">
 	<name>HERE Vector Tiles</name>
 	<url>https://vector.hereapi.com/v2/vectortiles/base/mc/$z/$x/$y/omv?apiKey=insert-your-apikey-here</url>
 	<tile type="vector" size="512" vectorLayers="boundaries,buildings,earth,landuse,places,pois,roads,road_labels,transit,water"/>

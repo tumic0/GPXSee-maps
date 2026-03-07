@@ -3,7 +3,7 @@
 	This map requires a style for the Tilezen tile scheme like
 	https://github.com/tumic0/QtPBFImagePlugin-styles/blob/master/VersaTiles/colorful
 -->
-<map xmlns="http://www.gpxsee.org/map/1.6">
+<map xmlns="http://www.gpxsee.org/map/1.7">
 	<name>Versatiles</name>
 	<url>https://tiles.versatiles.org/tiles/osm/$z/$x/$y</url>
 	<tile type="vector" size="512" vectorLayers="place_labels,boundaries,boundary_labels,addresses,water_lines,water_lines_labels,dam_lines,dam_polygons,pier_lines,pier_polygons,bridges,street_polygons,streets_polygons_labels,ferries,streets,street_labels,street_labels_points,aerialways,public_transport,buildings,water_polygons,ocean,water_polygons_labels,land,sites,pois,"/>

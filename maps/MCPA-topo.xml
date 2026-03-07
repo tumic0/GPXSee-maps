@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+<map xmlns="http://www.gpxsee.org/map/1.7" type="WMTS">
 	<name>MCPA topo</name>
 	<url>http://lgtgis.aari.ru/arcgis/rest/services/MCPA/topoEwebfull/MapServer/WMTS</url>
 	<copyright>ООПТ России, CC BY-NC-SA 3.0</copyright>

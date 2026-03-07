@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4">
+<map xmlns="http://www.gpxsee.org/map/1.7">
 	<name>NOAA Marine Charts</name>
 	<url>https://tileservice.charts.noaa.gov/tiles/50000_1/$z/$x/$y.png</url>
 	<zoom min="4" max="17"/>

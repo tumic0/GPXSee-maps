@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4">
+<map xmlns="http://www.gpxsee.org/map/1.7">
 	<name>Slazav map</name>
 	<url>https://slazav.xyz/tiles/podm/$x-$y-$z.png</url>
 	<zoom min="5" max="14"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4" type="WMTS">
+<map xmlns="http://www.gpxsee.org/map/1.7" type="WMTS">
 	<name>PDOK Luchtfoto</name>
 	<url>https://service.pdok.nl/hwh/luchtfotorgb/wmts/v1_0</url>
 	<copyright>© CC-BY Kadaster</copyright>

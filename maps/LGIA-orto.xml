@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map xmlns="http://www.gpxsee.org/map/1.4" type="WMS">
+<map xmlns="http://www.gpxsee.org/map/1.7" type="WMS">
 	<name>LGIA Ortofoto</name>
 	<url>https://lvmgeoserver.lvm.lv/geoserver/ows</url>
 	<copyright>LGIA / AS Latvijas valsts meži</copyright>
