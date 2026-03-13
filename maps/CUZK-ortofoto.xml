@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map xmlns="http://www.gpxsee.org/map/1.7" type="WMTS">
 	<name>ČÚZK - Ortofoto</name>
-	<url>http://geoportal.cuzk.cz/WMTS_ORTOFOTO/WMTService.aspx</url>
+	<url>https://ags.cuzk.gov.cz/arcgis1/rest/services/ORTOFOTO/MapServer/WMTS</url>
 	<copyright>© ČÚZK</copyright>
-	<layer>orto</layer>
-	<set>jtsk:epsg:5514</set>
+	<format>image/jpgpng</format>
+	<layer>ORTOFOTO</layer>
+	<set>default028mm</set>
 </map>
